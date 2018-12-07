@@ -12,3 +12,9 @@
 */
 
 Route::get('/', 'Manager\MainController@index');
+
+Route::group(['prefix' => 'reporte-ciudadano', 'namespace' => 'Manager'], function ($route) {
+    $route->get('/', 'ReporteCiudadanoController@index')->name('manager.rc.index');
+    $route->get('/cp/{str_cp}', 'ReporteCiudadanoController@showByPostalCode')->name('manager.rc.cp.show');
+    $route->get('/show', 'ReporteCiudadanoController@show')->name('manager.rc.show');
+});

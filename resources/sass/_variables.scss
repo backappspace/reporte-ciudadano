@@ -27,8 +27,26 @@ $gob-gold-one: #B38E5D;
 $gob-gold-two: #D4C19C;
 $light: #eaeaea;
 
+$scale-zero: #3B0068;
+$scale-one: #00165D;
+$scale-two: #003672;
+$scale-three: #005F86;
+$scale-four: #008F9A;
+$scale-five: #00AD95;
+$scale-six: #22BA88;
+$scale-seven: #44C782;
+
 $theme-colors: (
     "light": $light,
+    "purple": $purple,
+    "indigo": $indigo,
+    "green": $green,
+    "scale-zero": $scale-zero,
+    "scale-one": $scale-one,
+    "scale-two": $scale-two,
+    "scale-three": $scale-three,
+    "scale-four": $scale-four,
+    "scale-five": $scale-five,
     "morena": $morena,
     "gob-red-one": $gob-red-one,
     "gob-red-two": $gob-red-two,
