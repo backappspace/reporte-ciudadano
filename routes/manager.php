@@ -12,3 +12,16 @@
 */
 
 Route::get('/', 'Manager\MainController@index');
+
+
+
+
+
+
+
+
+
+
+Route::namespace('Manager')->group(function () {
+    Route::resource('convocatorias', 'ConvocatoriaController');
+});

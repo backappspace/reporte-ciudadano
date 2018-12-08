@@ -42,7 +42,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="{{ route('convocatorias.index') }}">
                             <span data-feather="bookmark"></span>
                             Convocatorias
                         </a>
@@ -103,6 +103,12 @@
         </nav>
 
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    @yield('breadcrumb')
+                </ol>
+            </nav>
             @yield('content')
         </main>
     </div>

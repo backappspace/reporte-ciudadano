@@ -20,6 +20,7 @@
         "bootstrap.native": "^2.0.24"
     },
     "dependencies": {
+        "jscs": "^3.0.7",
         "vue2-leaflet": "^1.2.3",
         "vue2-leaflet-markercluster": "^2.0.0"
     }
