@@ -12,15 +12,15 @@
     "devDependencies": {
         "axios": "^0.18",
         "bootstrap": "^4.0.0",
+        "bootstrap.native": "^2.0.24",
         "cross-env": "^5.1",
+        "eslint": "^5.10.0",
         "laravel-mix": "^2.0",
         "lodash": "^4.17.5",
         "popper.js": "^1.12",
-        "vue": "^2.5.17",
-        "bootstrap.native": "^2.0.24"
+        "vue": "^2.5.21"
     },
     "dependencies": {
-        "jscs": "^3.0.7",
         "vue2-leaflet": "^1.2.3",
         "vue2-leaflet-markercluster": "^2.0.0"
     }

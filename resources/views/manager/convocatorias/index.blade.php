@@ -1,21 +1,5 @@
 @extends('manager.app')
  @section('title', 'Convocatorias')
- @push('css')
-    <style>
-        .card {
-            cursor:pointer;
-            padding: 5px; 
-            margin-top: 10px;
-            color: black;
-        }
-        .card:hover {
-            filter:brightness(0.95);
-        }
-        a:link { 
-            text-decoration:none; 
-        }
-    </style>
- @endpush
  @section('breadcrumb')
     <li class="breadcrumb-item"><a href="#">Convocatorias</a></li>
  @endsection
@@ -37,7 +21,7 @@
     <div class="row">
         <div class="col-md-6">
             <a href="{{ route('convocatorias.show',1) }}">
-                <span  class="card">
+                <span  class="card convocatoria">
                     <img class="card-img-top" src="https://farm6.staticflickr.com/5333/17239314151_da63b06d88_o.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Título de la convocatoria</h5>
@@ -53,7 +37,7 @@
         </div>
         <div class="col-md-6">
             <a href="{{ route('convocatorias.show',1) }}">
-                <span  class="card">
+                <span  class="card convocatoria">
                     <img class="card-img-top" src="https://farm6.staticflickr.com/5333/17239314151_da63b06d88_o.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Título de la convocatoria</h5>
@@ -69,7 +53,7 @@
         </div>
         <div class="col-md-6">
             <a href="{{ route('convocatorias.show',1) }}">
-                <span  class="card">
+                <span  class="card convocatoria">
                     <img class="card-img-top" src="https://farm6.staticflickr.com/5333/17239314151_da63b06d88_o.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Título de la convocatoria</h5>

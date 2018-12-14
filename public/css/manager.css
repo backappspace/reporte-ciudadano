@@ -11741,3 +11741,23 @@ body {
           box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.25);
 }
 
+/*
+ * Convocatorias
+ */
+
+.convocatoria {
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 10px;
+  color: black;
+}
+
+.convocatoria:hover {
+  -webkit-filter: brightness(0.95);
+          filter: brightness(0.95);
+}
+
+a:link {
+  text-decoration: none;
+}
+
