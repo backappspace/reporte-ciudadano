@@ -1,7 +1,5 @@
 @extends('manager.app')
  @section('title', 'Convocatorias')
- @push('css')
- @endpush
  @section('breadcrumb')
     <li class="breadcrumb-item"><a href="{{ route('convocatorias.index') }}">Convocatorias</a></li>
     <li class="breadcrumb-item"><a href="#">Crear nuevo</a></li>
