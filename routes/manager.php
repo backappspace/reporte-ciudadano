@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'Manager\MainController@index');
+Route::get('/noticias', 'Manager\MainController@news')->name('news.index');
+Route::get('/noticias/create', 'Manager\MainController@createNews')->name('news.create');
+Route::get('/noticias/show', 'Manager\MainController@showNews')->name('news.show');
+

@@ -36,7 +36,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="{{route('news.index')}}">
                             <span data-feather="book-open"></span>
                             Sindicatura Informa
                         </a>
