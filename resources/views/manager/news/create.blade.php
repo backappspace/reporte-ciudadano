@@ -5,13 +5,11 @@
         <h1 class="h2">Creando Noticia</h1>
     </div>
     <div class="container-fluid">
-        <div class="col-md-12">
+        <div class="col-md-12 px-5">
             <div class="row">
-                <div class="col-md-1">
-                   
-                </div>
+              
 
-                <div class="col-md-10" style="padding: 15px; border: 0.5px solid black; border-radius: 30px;">
+                <div class="col-md-12 p-4 create-news-container">
                   <form>
                     <div class="form-group">
                       <div class="input-group">
@@ -39,9 +37,7 @@
                     </div>
                   </form>
                 </div>
-                <div class="col-md-1">
-                   
-                </div>
+          
             </div>
         </div>
     </div>
