@@ -30,19 +30,3 @@
 .navbar-gob-red-one .navbar-brand {
     color: $white;
 }
-
-/*
- * Convocatorias
- */
-.convocatoria {
-    cursor:pointer;
-    padding: 5px; 
-    margin-top: 10px;
-    color: black;
-}
-.convocatoria:hover {
-    filter:brightness(0.95);
-}
-.decoration-none{ 
-    text-decoration:none !important; 
-}
