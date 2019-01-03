@@ -20,7 +20,7 @@
     </div>
     <div class="row">
         <div class="col-md-6">
-            <a href="{{ route('convocatorias.show',1) }}" class="decoration-none">
+            <a href="{{ route('convocatorias.show',1) }}" class="text-decoration-none">
                 <span  class="card convocatoria">
                     <img class="card-img-top" src="https://farm6.staticflickr.com/5333/17239314151_da63b06d88_o.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -36,7 +36,7 @@
             </a>
         </div>
         <div class="col-md-6">
-            <a href="{{ route('convocatorias.show',1) }}" class="decoration-none">
+            <a href="{{ route('convocatorias.show',1) }}" class="text-decoration-none">
                 <span  class="card convocatoria">
                     <img class="card-img-top" src="https://farm6.staticflickr.com/5333/17239314151_da63b06d88_o.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -52,7 +52,7 @@
             </a>
         </div>
         <div class="col-md-6">
-            <a href="{{ route('convocatorias.show',1) }}" class="decoration-none">
+            <a href="{{ route('convocatorias.show',1) }}" class="text-decoration-none">
                 <span  class="card convocatoria">
                     <img class="card-img-top" src="https://farm6.staticflickr.com/5333/17239314151_da63b06d88_o.jpg" alt="Card image cap">
                     <div class="card-body">
