@@ -1,32 +1,19 @@
-
 // Fonts
+@import url('//fonts.googleapis.com/css?family=Fira+Sans');
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700');
 
-// Variables
-@import 'variables';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@import "~tailwindcss/preflight";
 
-.nunito {
-    font-family: 'Nunito', sans-serif;
-}
+/* Add custom base styles here... */
 
-.montserrat {
-    font-family: 'Montserrat', sans-serif;
-}
+@import "~tailwindcss/components";
 
-.form-control-gob-red-one {
-    background-color: $gob-red-one;
-    border-color: $gob-red-two;
-    color: $gob-gold-two;
-}
+/* Add custom components here... */
 
-.navbar-gob-red-one .navbar-nav .nav-link {
-    color: $gob-gold-two;
-}
+@import "~tailwindcss/utilities";
 
-.navbar-gob-red-one .navbar-brand {
-    color: $white;
+.font-fira-sans {
+    font-family: 'Fira Sans', sans-serif;
 }
