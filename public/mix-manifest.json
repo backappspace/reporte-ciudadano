@@ -1,8 +1,6 @@
 {
     "/js/manager.js": "/js/manager.js",
-    "/css/manager.css": "/css/manager.css",
-    "/css/webapp.css": "/css/webapp.css",
-    "/css/website.css": "/css/website.css",
-    "/js/website.js": "/js/website.js",
-    "/js/webapp.js": "/js/webapp.js"
+    "/css/app.css": "/css/app.css",
+    "/js/webapp.js": "/js/webapp.js",
+    "/js/website.js": "/js/website.js"
 }

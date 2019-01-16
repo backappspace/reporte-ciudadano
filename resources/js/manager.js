@@ -12,17 +12,27 @@ Vue.use(VueProgressBar, {
     height: '2px'
 });
 
-import ExampleComponent from './components/ExampleComponent';
+import DashboardComponent from './components/DashboardComponent';
+import ConvocatoriasComponent from './components/ConvocatoriasComponent';
+import ReportesComponent from './components/ReportesComponent';
+import MetricasComponent from './components/MetricasComponent';
+import DepartamentosComponent from './components/DepartamentosComponent';
+import ConfiguracionComponent from './components/ConfiguracionComponent';
 
 const routes = [
-    { path: '/', component: ExampleComponent },
+    { path: '/', component: DashboardComponent },
+    { path: '/convocatorias', component: ConvocatoriasComponent },
+    { path: '/reportes', component: ReportesComponent },
+    { path: '/metricas', component: MetricasComponent },
+    { path: '/departamentos', component: DepartamentosComponent },
+    { path: '/configuracion', component: ConfiguracionComponent },
 ];
 const router = new VueRouter({
     base: '/manager/',
     hashbang: false ,
     mode: 'hash',
     linkActiveClass: "",
-    linkExactActiveClass: "border-blue-dark md:text-blue-dark",
+    linkExactActiveClass: "border-gob-gold md:text-gob-gold",
     routes // short for `routes: routes`
 });
 const app = new Vue({

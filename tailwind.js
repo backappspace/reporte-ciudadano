@@ -121,6 +121,16 @@ let colors = {
   'purple-lighter': '#d6bbfc',
   'purple-lightest': '#f3ebff',
 
+   'morena': '#a63f33',
+   'gob-darkest': '#56242A',
+   'gob-darker': '#4E232E',
+   'gob-dark': '#621132',
+   'gob': '#9D2449',
+   'gob-gold-dark': '#a07e52',
+   'gob-gold': '#B38E5D',
+   'gob-gold-light': '#D4C19C',
+   'gob-lightest': '#eaeaea',
+
   'pink-darkest': '#451225',
   'pink-darker': '#6f213f',
   'pink-dark': '#eb5286',
