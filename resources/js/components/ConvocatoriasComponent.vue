@@ -50,11 +50,11 @@
                 </a>
             </div>
             <div class="p-1 w-full sm:w-full md:w-1/2">
-                <a href="#" class="no-underline">
+                <router-link to="/convocatorias/create" class="no-underline">
                     <div class="group relative rounded flex items-center justify-center p-5 overflow-hidden shadow-lg hover:opacity-75 h-full">
                         <i class="fas fa-plus-circle text-grey-darker text-xl-10"></i>
                     </div>
-                </a>
+                </router-link>
             </div>
         </div>
     </div>

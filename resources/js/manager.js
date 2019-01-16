@@ -19,9 +19,13 @@ import MetricasComponent from './components/MetricasComponent';
 import DepartamentosComponent from './components/DepartamentosComponent';
 import ConfiguracionComponent from './components/ConfiguracionComponent';
 
+import ConvocatoriasCreateComponent from './components/convocatorias/ConvocatoriasCreateComponent';
+
 const routes = [
-    { path: '/', component: DashboardComponent },
+    { path: '/', redirect: '/dashboard' },
+    { path: '/dashboard', component: DashboardComponent },
     { path: '/convocatorias', component: ConvocatoriasComponent },
+    { path: '/convocatorias/create', component: ConvocatoriasCreateComponent },
     { path: '/reportes', component: ReportesComponent },
     { path: '/metricas', component: MetricasComponent },
     { path: '/departamentos', component: DepartamentosComponent },
@@ -31,8 +35,8 @@ const router = new VueRouter({
     base: '/manager/',
     hashbang: false ,
     mode: 'hash',
-    linkActiveClass: "",
-    linkExactActiveClass: "border-gob-gold md:text-gob-gold",
+    linkActiveClass: "border-gob-gold md:text-gob-gold",
+    linkExactActiveClass: "",
     routes // short for `routes: routes`
 });
 const app = new Vue({
