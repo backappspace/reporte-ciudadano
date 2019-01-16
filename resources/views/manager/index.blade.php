@@ -71,7 +71,6 @@
             </div>
         </div>
         <div class="flex-grow container mx-auto sm:px-4 pt-6 pb-8">
-
             <transition name="fade">
                 <router-view></router-view>
             </transition>
