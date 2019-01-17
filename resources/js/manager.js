@@ -19,13 +19,15 @@ import MetricasComponent from './components/MetricasComponent';
 import DepartamentosComponent from './components/DepartamentosComponent';
 import ConfiguracionComponent from './components/ConfiguracionComponent';
 
-import ConvocatoriasCreateComponent from './components/convocatorias/ConvocatoriasCreateComponent';
+import ConvocatoriasCreateComponent from './components/ConvocatoriasCreateComponent';
+import ConvocatoriasEditComponent from './components/ConvocatoriasEditComponent';
 
 const routes = [
     { path: '/', redirect: '/dashboard' },
     { path: '/dashboard', component: DashboardComponent },
     { path: '/convocatorias', component: ConvocatoriasComponent },
     { path: '/convocatorias/create', component: ConvocatoriasCreateComponent },
+    { path: '/convocatorias/edit', component: ConvocatoriasEditComponent },
     { path: '/reportes', component: ReportesComponent },
     { path: '/metricas', component: MetricasComponent },
     { path: '/departamentos', component: DepartamentosComponent },
