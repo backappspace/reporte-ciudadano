@@ -55,6 +55,7 @@
 
 <script>
     export default {
+        props: ['id'],
         mounted() {
             //
         }

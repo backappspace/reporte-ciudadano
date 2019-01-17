@@ -13,32 +13,38 @@ Vue.use(VueProgressBar, {
 });
 
 import DashboardComponent from './components/DashboardComponent';
+
 import ConvocatoriasComponent from './components/ConvocatoriasComponent';
+import ConvocatoriasInicioComponent from './components/ConvocatoriasInicioComponent';
+import ConvocatoriaCrearComponent from './components/ConvocatoriaCrearComponent';
+import ConvocatoriaEditarComponent from './components/ConvocatoriaEditarComponent';
+
 import ReportesComponent from './components/ReportesComponent';
 import MetricasComponent from './components/MetricasComponent';
 import DepartamentosComponent from './components/DepartamentosComponent';
 import ConfiguracionComponent from './components/ConfiguracionComponent';
 
-import ConvocatoriasCreateComponent from './components/ConvocatoriasCreateComponent';
-import ConvocatoriasEditComponent from './components/ConvocatoriasEditComponent';
-
 const routes = [
-    { path: '/', redirect: '/dashboard' },
-    { path: '/dashboard', component: DashboardComponent },
-    { path: '/convocatorias', component: ConvocatoriasComponent },
-    { path: '/convocatorias/create', component: ConvocatoriasCreateComponent },
-    { path: '/convocatorias/edit', component: ConvocatoriasEditComponent },
+    { path: '/', component: DashboardComponent },
+    { path: '/convocatorias', component: ConvocatoriasComponent,
+        children: [
+            { name: 'convocatoria', path: '', component: ConvocatoriasInicioComponent },
+            { name: 'convocatoria_crear', path: 'crear', component: ConvocatoriaCrearComponent },
+            { name: 'convocatoria_editar', path: 'editar', component: ConvocatoriaEditarComponent, props: true },
+        ]
+    },
     { path: '/reportes', component: ReportesComponent },
     { path: '/metricas', component: MetricasComponent },
     { path: '/departamentos', component: DepartamentosComponent },
     { path: '/configuracion', component: ConfiguracionComponent },
 ];
+
 const router = new VueRouter({
     base: '/manager/',
     hashbang: false ,
     mode: 'hash',
-    linkActiveClass: "border-gob-gold md:text-gob-gold",
-    linkExactActiveClass: "",
+    linkActiveClass: "",
+    linkExactActiveClass: "border-gob-gold md:text-gob-gold",
     routes // short for `routes: routes`
 });
 const app = new Vue({
