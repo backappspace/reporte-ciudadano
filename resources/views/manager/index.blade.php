@@ -39,7 +39,8 @@
                         </div>
                         <div class="flex -mb-px mr-8">
                             <router-link to="/convocatorias" class="no-underline text-white opacity-50 md:text-grey-dark md:opacity-100 flex items-center py-4 border-b border-transparent hover:opacity-100 md:hover:border-gob-gold">
-                                <i class="far fa-bookmark text-lg mr-3"></i> Convocatorias
+                                <i class="far fa-bookmark text-lg mr-3"></i> 
+                                Convocatorias
                             </router-link>
                         </div>
                         <div class="flex -mb-px mr-8">
@@ -71,7 +72,6 @@
             </div>
         </div>
         <div class="flex-grow container mx-auto sm:px-4 pt-6 pb-8">
-
             <transition name="fade">
                 <router-view></router-view>
             </transition>
