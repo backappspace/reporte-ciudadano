@@ -48,7 +48,7 @@
         </div>
         <div class="w-full border-2 rounded m-5">
         </div>
-        <div class="w-full flex justify-end px-10">
+        <div class="w-full flex justify-center md:justify-end px-10">
             <button class="bg-gob hover:bg-gob-dark text-white font-bold py-2 px-4 rounded">
                 Guardar convocatoria
             </button>
